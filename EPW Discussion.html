@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<title>EPW Forum</title>
+<head>
+<style>
+.main{display:grid;
+      display-template-columns:1fr 1fr 1fr 1fr 1fr;
+      display=template-rows:1fr 1fr 1fr 1fr;}
+
+@media only screen and (max-width: 1200px){.main{display:block;}}
+
+.up{border-bottom:green solid 2px;}
+.home{border-bottom:green solid 2px;border-column:1/2;text-align:center;}
+.home a{text-decoration:none;color:black;}
+.home a:hover{text-decoration:underline;}
+.header{text-align:center;grid-column:2/4;border-bottom:green solid 2px;}
+.sign{grid-column:4/5;border-bottom:green solid 2px;text-align:center;}
+
+.container{grid-column:2/4;
+           text-align:center;
+                      color:DarkGoldenRod;
+           padding:2%;
+border-left:red solid 2px;
+border-right:red solid 2px;
+border-bottom:green solid 2px;}
+.container a{text-decoration:underline red;}
+.container a:hover{text-decoration:underline green;cursor:pointer;}
+
+.inputs{grid-column:4/5;grid-row:2/4;text-align:center;}
+.inputs a:hover{text-decoration:underline red;}
+</style>
+</head>
+<body>
+
+<div class=main>
+<div class=home><a href=EPW%20DATABASE.html><h2>Homepage</h2></a></div>
+<div class=header><h1>EPW Discussion</h1></div>
+<div class=sign><h2>User:</h2></div>
+<br>
+<div class=inputs><h2><a href="thread%20template.html">Create New Thread</a></h2></div>
+<div class=container><h2><a>WELCOME THREAD</a></h2></div>
+<div class=container><h2><a>RULES</a></h2></div>
+
+
+
+
+</div>
+
+
+</body>
+<script>
+</script>
+</html>
